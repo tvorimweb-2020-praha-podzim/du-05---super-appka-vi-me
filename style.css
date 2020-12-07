@@ -55,6 +55,11 @@ body {
 body {
     background-color: #e5e5e5;}
 
+a {
+    text-decoration: none;
+    color: #48418e;
+}
+
 
 .navigace,
 .sluzby {
@@ -67,9 +72,7 @@ footer {
     color: white;
 }
 
-a {
-    text-decoration: none;
-}
+
 
 .menu {
     display: flex;
@@ -197,6 +200,7 @@ footer p{
     margin: 0;
     padding-top: 0.5rem;
 }
+
 
 
 @media screen and (min-width: 600px) {
