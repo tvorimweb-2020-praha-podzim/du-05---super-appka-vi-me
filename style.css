@@ -60,7 +60,6 @@ a {
     color: #48418e;
 }
 
-
 .navigace,
 .sluzby {
     color: #48418e;
@@ -71,8 +70,6 @@ header,
 footer {
     color: white;
 }
-
-
 
 .menu {
     display: flex;
@@ -101,7 +98,6 @@ footer {
     align-items: center ;
 }
 
-
 .navigace a:hover{
     background-color: #48418e;
     color: white;
@@ -128,7 +124,8 @@ h1 {
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(to right, #25133d 25%, #aa5477 100%);
-    padding: 1rem 2rem 2rem 2rem}
+    padding: 1rem 2rem 2rem 2rem
+}
 
 .tlacitka {
     display: flex;
@@ -171,11 +168,11 @@ background-color: #25133d;
     margin: 0;
     margin-bottom: 1rem;
 }
+
 .nadpis-s-obrazkem {
     display: flex;
     flex-direction: column;
 }
-
 
 .ikona {
     width: 80px;
@@ -200,7 +197,6 @@ footer p{
     margin: 0;
     padding-top: 0.5rem;
 }
-
 
 
 @media screen and (min-width: 600px) {
@@ -271,14 +267,13 @@ footer p{
     .slogan {  
         max-width: 40%;
         font-size: 53px;
-        }    
+    }    
 
     .tlacitko1,
     .tlacitko2 {
         margin-right: 1.2rem;
         width: 250px;
         font-size: 30px;
-        }
-
+    }
 
 } 
